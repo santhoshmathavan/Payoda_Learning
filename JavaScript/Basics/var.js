@@ -44,4 +44,27 @@
 // console.log(string.substr(4,6))    // Script
 // let country = 'Finland'
 // console.log(country.substr(3, 4))
-//---------------------------------------------------------------------------------------
+//------------------------------------SpreadOpertorWithArrowFunction--------------------------------------------
+// const sumofnums = (...args) =>{
+//     let sum=0
+//     for(const num of args){
+//         sum += num
+//     }
+//     return sum
+// }
+
+// console.log(sumofnums(1,2,3,4,5))
+//--------------------------------------------------------------------------------------
+arr=[1,2,3,4,5]
+// console.time('regular loop')
+// let i=0
+// while(i < arr.length){
+//     console.log(arr[i])
+//     i++
+// }
+// console.timeEnd('regular loop')
+console.time('regular loop')
+arr.forEach(element => {
+    console.log(element)
+});
+console.timeEnd('regular loop')

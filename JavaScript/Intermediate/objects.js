@@ -110,4 +110,64 @@ const users = {
 // }
 // console.log(Math.max(...arr))
 
-console.log(users)
+//console.log(users)
+
+//---------------------------------Object Destructing-------------------------------------------
+const person = {
+  firstName: 'Asabeneh',
+  lastName: 'Yetayeh',
+  age: 250,
+  country: 'Finland',
+  job: 'Instructor and Developer',
+  skills: [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Redux',
+    'Node',
+    'MongoDB',
+    'Python',
+    'D3.js'
+  ],
+  languages: ['Amharic', 'English', 'Suomi(Finnish)']
+}
+// Without destructuring
+
+const getPersonInfo = obj => {
+  const skills = obj.skills
+  const formattedSkills = skills.slice(0, -1).join(', ')
+  const languages = obj.languages
+  const formattedLanguages = languages.slice(0, -1).join(', ')
+
+  personInfo = `${obj.firstName} ${obj.lastName} lives in ${obj.country}. He is  ${
+    obj.age
+  } years old. He is an ${obj.job}. He teaches ${formattedSkills} and ${
+    skills[skills.length - 1]
+  }. He speaks ${formattedLanguages} and a little bit of ${languages[2]}.`
+
+  return personInfo
+}
+
+console.log(getPersonInfo(person))
+
+//With Destructing
+// const getPersonInfo = ({
+//   firstName,
+//   lastName,
+//   age,
+//   country,
+//   job,
+//   skills,
+//   languages
+// }) => {
+//   const formattedSkills = skills.slice(0, -1).join(', ')
+//   const formattedLanguages = languages.slice(0, -1).join(', ')
+
+//   personInfo = `${firstName} ${lastName} lives in ${country}. He is ${age} years old. He is an ${job}. He teaches ${formattedSkills} and ${
+//     skills[skills.length - 1]
+//   }. He speaks ${formattedLanguages} and a little bit of ${languages[2]}.`
+
+//   return personInfo
+// }
+console.log(getPersonInfo(person))

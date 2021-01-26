@@ -22,3 +22,6 @@
 // for(const pro of products){
 //     console.log(`The product is ${pro.product} and price is${pro.price}`)
 // }
+
+// arr=[1,2,3,4,5]
+// console.log(arr.find((num) => num>2))
