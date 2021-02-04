@@ -1,0 +1,75 @@
+CAP Theorem
+	It states that is impossible for a distributed data store to offer more than two out of three guarantees
+	
+	->Consistency
+	->Availability
+	->Partition Tolerance
+
+MongoDB
+	->MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the   cloud
+	->As a programmer, you think in objects.
+	->Community,Enterprise
+	->Rich JSON Documents
+	->Documents->collections->Database
+	->Written in C++
+	->Classified as a NoSQL database program
+	->Uses JSON like documents
+	->Current Stable Release : 4.4.3
+	->Editions- 1)Community
+				2)Enterprise
+				3)Mongodb ATlas
+	->Developed in early 2007 when the company was developing a an azure like platform
+	->  Company name was *10gen* after named it as MongoDB Inc
+	->In year 2010 March it was released as a ready product and an opensourse database server to all maintained by the organisation itself
+
+	*)  Schema less
+	*)  No complex joins
+	*)  Scalability
+	*)  Uses Internal Memory
+	
+postgressql
+	->13.1  2 months ago
+	->1996
+	->open source relational database that supports both SQL (relational) and JSON (non-relational) querying.
+	->highly stable database management system, backed by more than 20 years of community development
+	->procedural language PL/pgSQL
+
+Graph Database
+	->Graph databases are purpose-built to store and navigate relationships. 
+	->Relationships are first-class citizens in graph databases, and most of the value of graph databases is derived from 	    these relationships. 
+	->Graph databases use nodes to store data entities, and edges to store relationships between entities. An edge always has a start node, end node, type, and direction, and an edge can describe parent-child relationships, actions, ownership, and the like. 
+	->There is no limit to the number and kind of relationships a node can have.
+	->AWS->Neptune
+	
+Neo4j
+	->Neo4j is an open-source, NoSQL, native graph database
+	->The source code, written in Java and Scala,
+	->Neo4j has both a Community Edition and Enterprise Edition of the database.
+	->Neo4j is referred to as a native graph database because it efficiently implements the property graph model down to the storage level. 
+	->Cypher, a declarative query language similar to SQL, but optimized for graphs. Now used by other databases like SAP HANA Graph and Redis graph
+
+Azure Cosmos DB
+	->Azure Cosmos DB is a fully managed NoSQL database service for modern app development.
+	->Complete service and ready to use.
+	->Multi-API(SQL,Cassandra)
+	->A number of consistency levels
+	->Latency: Very low latency is practically guaranteed at less than 10 milliseconds when reading data and less than 15 milliseconds when writing data.
+
+Cassandra
+	-> Written in Java
+	-> Facebook - Avinash Lakshman(Amazon Dynamo), Prashant Malik.
+              Inbox feauture.
+	->July 2008 
+	->Apache incubator- 2009.
+	->Feb 2010 - Top level project
+	->Version - 3.2.1
+	->Distributed NoSQl database "Column Based".
+	->Keyspaces and column family.
+	->column(key,value)->group of columns->Rows(Identified by Row keys)->list of Row keys form columns family->list of columns forms a Key Space
+	->Query language - CQL (cassandra query language)
+	->Every node has a replica, so nodata is ever lost
+
+Redis
+	->Redis is a NoSQL database which follows the principle of key-value store. 
+	->Redis is an apt solution for building highperformance, scalable web applications.
+	->It is often referred to as a data structure server, since the keys can contain strings, hashes, lists, sets and sorted sets.
