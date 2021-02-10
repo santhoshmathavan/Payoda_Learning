@@ -1,0 +1,60 @@
+/* p.normal{
+  font-variant:normal;
+  border: 5px solid;
+  border-color: red;
+  border-width: 10px;
+  width:90px;
+  height:90px;
+  
+}
+
+p.small{
+  font-variant:small-caps;
+  text-decoration: blink;
+  letter-spacing: -1.5px;
+  word-spacing: 5px;
+  white-space: nowrap;
+  padding: 10px;
+  border: 5px solid green;
+} */
+
+/* p.img{
+  background-image:url("https://s3.amazonaws.com/images.seroundtable.com/google-black-1545140719.jpg");
+  padding: 100px;
+  width:50px;
+  height:50px;
+} */
+
+/* ol.lower-alpha{
+  list-style-type:lower-alpha;
+}
+
+ul.square{
+  list-style-type:square;
+} */
+
+/* table{
+  border-collapse: separate;
+  border-spacing: 20px 40px;
+  border-radius:10px;
+  box-shadow: 10px 10px 5px 5px #888888;
+  text-shadow: 0px 5px 3px red;
+} */
+
+/* a:hover{
+  color:red;
+} */
+
+/* #parent p:first-child{
+  color:yellow;
+} */
+
+p{
+  width: 210px;
+  height: 200px;
+  border: 1px solid #000000 dotted black;
+  word-wrap:break-word;
+  padding:20px;
+  background:radial-gradient(blue,green,white);
+  backgroud-clip:content-box;
+}

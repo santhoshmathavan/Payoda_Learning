@@ -1,0 +1,98 @@
+text-shadow
+background-image:url(link)
+background-repeat:repeat-x
+background-attachment:fixed
+list-style-image:url()
+list-style-position:inside/outside
+img{
+float: left;
+}
+to exit overlap
+z-index:3;
+overflow:scroll
+CSS3 new features
+Border radius - allows us to create rounded corners for elements.
+Border images - allows us to specify an image as the border around an element.
+Multiple backgrounds - applies multiple backgrounds to elements.
+Animations and effects, and much more!
+vendor prefixes if not supported in the browser
+pseudo-classes 
+#parent p:first-child{}
+Linear gradient -Smooth transistions between colors.
+Multiple backgrounds
+opacity values between :0.0 to 1.0
+
+
+<!--  <p class="normal">Paragraph font variant set to normal.</p>
+ <p class="small">Paragraph font variant set to small-caps.</p><p class="img">This is a image </p>  -->
+
+<!-- <ol class="lower-alpha">
+   <li>Red</li>
+   <li>Green</li>
+   <li>Blue</li>
+</ol>
+<ul class="circle">
+   <li>Red</li>
+   <li>Green</li>
+   <li>Blue</li>
+</ul>
+<ul class="square">
+   <li>Red</li>
+   <li>Green</li>
+   <li>Blue</li>
+</ul> -->
+
+<!-- <table border="1">
+   <tr>
+     <td>Red</td>
+     <td>Green</td>
+   </tr>
+   <tr>
+      <td>Blue</td>
+      <td>Yellow</td>
+   </tr>
+</table> -->
+
+<!-- <table border="1">
+<caption>Some of Our Courses</caption>
+<tr>
+  <th>Course name</th>
+  <th>Lessons</th>
+  <th>Quizzes</th>
+</tr>
+<tr>
+  <td>C++</td>
+  <td>81</td>
+  <td>363</td>
+</tr>
+<tr>
+  <td>JavaScript</td>
+  <td>48</td>
+  <td>144</td>
+</tr>
+<tr>
+  <td>HTML</td>
+  <td>38</td>
+  <td>119</td>
+</tr>
+<tr>
+  <td>CSS</td>
+  <td>70</td>
+  <td>174</td>
+</tr>
+</table> 
+
+<!-- <p><a href="http://www.sololearn.com" target="_blank">
+   This link is hovered when we mouse over it
+</a></p> -->
+
+<!-- <div id="parent">
+   <p>First paragraph</p>
+   <p>Second paragraph</p>
+   <p>Third paragraph</p>
+   <p>Fourth paragraph</p>
+</div> -->
+
+ <p>
+sfdjvnsdfkjvnskdjvnkj;dfsn
+</p>
