@@ -1,0 +1,9 @@
+Node
+Original Author:Ryan Dahl
+Initial release: May 27,2009
+Stable release:15.8.0
+Written in:C, C++, JavaScript
+Runtime environment for js uses v8
+Asynchronous programming
+Vast number of libraries
+Front and back end both uses js
